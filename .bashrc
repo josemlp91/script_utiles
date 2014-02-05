@@ -19,7 +19,7 @@ alias gl="git log"
 
 alias gi="git init"
 
-alias mong="./bin/mongod --dbpath . --nojournal &"
+
 
 alias rmD="rmdir --ignore-fail-on-non-empty"
 

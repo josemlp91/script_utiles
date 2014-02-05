@@ -1,8 +1,5 @@
 #Jose Miguel Lopez Perez
 
-export AZURE_STORAGE_ACCOUNT=josemlp
-export AZURE_STORAGE_ACCESS_KEY=nbr7t/Q8wvu7EEE+ytD3sAnC+k9kC86AcKtZMrWOP+C/F7zlaFxjuCAdPqkKnKP4Z1D6iUFdB6FaJgf+Se6t3A==
-alias telegram='/home/josemlp/tg-master/./telegram -k /home/josemlp/tg-master/tg.pub'
 
 alias r='clear'
 alias rm='rm -i'
