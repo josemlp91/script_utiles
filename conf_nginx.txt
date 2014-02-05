@@ -1,0 +1,16 @@
+server {
+
+        listen 9001; # puerto donde quieren que escuche nginx
+        server_name www.dominio.com; # o 192.168.0.100, dirección a la cual accederemos
+        access_log /var/log/nginx/nombreApp.access.log; # donde tendremos el log de la aplicación
+
+        location / { # a donde llamara nginx al acceder a www.dominio.com/
+                proxy_pass http://127.0.0.1:8001; 
+                proxy_set_header Host $http_host;
+        }
+
+        location /static/ { # a donde accedera nginx cuando ingresemos en www.dominio.com/static/ 
+                alias /var/www/ENV-nombreApp/nombreApp/staticfiles/; 
+        }
+
+}
