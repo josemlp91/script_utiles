@@ -4,7 +4,6 @@
 alias r='clear'
 alias rm='rm -i'
 alias djrun='python manage.py runserver'
-alias sc='cd ~/proyectos/SocialCookies/ENV1/webcookies/'
 
 alias api='sudo apt-get install'
 alias p='python'
